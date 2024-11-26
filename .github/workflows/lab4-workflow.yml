@@ -9,7 +9,7 @@ jobs:
       runs-on: ubuntu-latest
       permissions: 
         contents: read
-        package: write
+        packages: write
       steps:
         - name: Checkout Repository
           uses: actions/checkout@v4
